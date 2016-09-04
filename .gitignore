@@ -306,3 +306,4 @@ $RECYCLE.BIN/
 *.sln
 dma/dma.vcxproj
 *.filters
+*.bak

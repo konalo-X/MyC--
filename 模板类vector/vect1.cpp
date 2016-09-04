@@ -21,8 +21,7 @@ int main()
     }
     cout<<" Thank you. You entered the following: \n"
     <<" Rating\tBook\n";
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
     //使用迭代器代替for循环
     //声明两个  迭代器

@@ -29,16 +29,11 @@ int main()
     vector<string>::iterator ps;
     pi=ratings.begin();
     ps=titles.begin();
-    for(i=0;i<NUM;i++)
+    for(pi=ratings.begin(),ps=titles.begin();pi!=ratings.end(),ps!=titles.end();pi++,ps++)
     {
-        cout<<*pi++<<"\t"<<*ps++<<endl;
+        cout<<*pi<<"\t"<<*ps<<endl;
     }
 
-
-    for(i=0;i<NUM;i++)
-    {
-        cout<<ratings[i]<<"\t"<<titles[i]<<endl;
-    }
 
 
     return 0;

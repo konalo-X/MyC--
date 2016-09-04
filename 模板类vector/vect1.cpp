@@ -21,18 +21,10 @@ int main()
     }
     cout<<" Thank you. You entered the following: \n"
     <<" Rating\tBook\n";
-
-    //使用迭代器代替for循环
-    //声明两个  迭代器
-    vector<int> ::iterator pi;
-    vector<string>::iterator ps;
-    pi=ratings.begin();
-    ps=titles.begin();
     for(i=0;i<NUM;i++)
     {
-        cout<<*pi++<<"\t"<<*ps++<<endl;
+        cout<<ratings[i]<<"\t"<<titles[i]<<endl;
     }
-
 
     return 0;
 }

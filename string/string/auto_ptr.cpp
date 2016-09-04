@@ -34,4 +34,6 @@ int main()
     cout<<"The winner is "<<*pwin<<"! \n";
     cin.get();
     return 0;
+    
+    ///////////////////////////////
 }

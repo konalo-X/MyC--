@@ -23,7 +23,7 @@ int main()
     //auto_ptr<string> pwin;
     shared_ptr<string> pwin;
     pwin=move(films[2]);//films[2]失去所有权ownership,films[2]变为空指针
-    
+    //move 会移film【2】
     cout<<"The nominees for best avian baseball film are\n";
     for (int i = 0; i < 5; ++i)
     {

@@ -36,17 +36,11 @@ int main()
     }
 
 
-=======
-=======
->>>>>>> parent of 5f690ed... Revert "create vector array"
     for(i=0;i<NUM;i++)
     {
         cout<<ratings[i]<<"\t"<<titles[i]<<endl;
     }
 
-<<<<<<< HEAD
->>>>>>> parent of 5f690ed... Revert "create vector array"
-=======
->>>>>>> parent of 5f690ed... Revert "create vector array"
+
     return 0;
 }

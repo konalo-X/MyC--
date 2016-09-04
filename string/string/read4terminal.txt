@@ -1,0 +1,243 @@
+ Wed Aug 31 182309 on console
+konalo@MacBook-Air~ $ ls
+360云盘   C         Desktop   Documents Downloads Library   Movies    Music     Pictures  Public    mypython  myqt      socket
+konalo@MacBook-Air~ $ cd c
+konalo@MacBook-Air~/c $ ls
+C             QT-C-         error2.cpp    error4.cpp    error5.cpp    exc_mean.hpp  testclass.cpp
+konalo@MacBook-Air~/c $ vi error4.cpp 
+konalo@MacBook-Air~/c $ g++ error4.cpp
+konalo@MacBook-Air~/c $ ./a.out 
+Enter two numbers 78 54
+Harmonic mean of 78 and 54 is 63.8182
+Geometric mean of 78 and 54 is 64.8999
+enter next set of numbers <q to quit>  23 90
+Harmonic mean of 23 and 90 is 36.6372
+Geometric mean of 23 and 90 is 45.4973
+enter next set of numbers <q to quit>  32 -23
+Harmonic mean of 32 and -23 is -163.556
+Geometric mean of 32 and -23 is gmean () srguments should be >0 
+Values uesd 32 , -23
+Sorry ,you don't play again. 
+Bye! 
+konalo@MacBook-Air~/c $ man explicit
+No manual entry for explicit
+konalo@MacBook-Air~/c $ 
+konalo@MacBook-Air~/c $ vi error4.cpp 
+
+C             QT-C-         a.out         error2.cpp    error4.cpp    error5.cpp    exc_mean.hpp  testclass.cpp
+
+Press ENTER or type command to continue
+helo
+
+Press ENTER or type command to continue
+konalo@MacBook-Air~/c $ ls
+C             QT-C-         a.out         error2.cpp    error4.cpp    error5.cpp    exc_mean.hpp  testclass.cpp
+konalo@MacBook-Air~/c $ rm a.out
+konalo@MacBook-Air~/c $ ls
+C             QT-C-         error2.cpp    error4.cpp    error5.cpp    exc_mean.hpp  testclass.cpp
+konalo@MacBook-Air~/c $ cd QT-C-/
+konalo@MacBook-Air~/c/QT-C- $ ls
+konalo@MacBook-Air~/c/QT-C- $ ls
+konalo@MacBook-Air~/c/QT-C- $ ls
+konalo@MacBook-Air~/c/QT-C- $ cd ..
+konalo@MacBook-Air~/c $ rm QT-C-/
+rm QT-C-/ is a directory
+konalo@MacBook-Air~/c $ rm QT-C- -f
+rm QT-C- is a directory
+rm -f No such file or directory
+konalo@MacBook-Air~/c $ rm QT-C- -r -f
+rm QT-C- is a directory
+rm -r No such file or directory
+rm -f No such file or directory
+konalo@MacBook-Air~/c $ rm QT-C- -r
+rm QT-C- is a directory
+rm -r No such file or directory
+konalo@MacBook-Air~/c $ rm -r QT-C-
+override r--r--r--  konalo/staff for QT-C-/.git/objects/19/4d429ce4a2c1c0e4bdce7021b78d2d2563b34c? 
+rm QT-C-/.git/objects/19 Directory not empty
+override r--r--r--  konalo/staff for QT-C-/.git/objects/1c/61816ec5fb94ae11a50e3eb085006a31f696d8? 
+rm QT-C-/.git/objects/1c Directory not empty
+override r--r--r--  konalo/staff for QT-C-/.git/objects/2f/1ddd8e877e4fda5b0e7cc4874c49afb9d8001f? 
+override r--r--r--  konalo/staff for QT-C-/.git/objects/2f/4cf8c8e8095b907114d11ee804ca8887650110? 
+rm QT-C-/.git/objects/2f Directory not empty
+override r--r--r--  konalo/staff for QT-C-/.git/objects/40/22e690668acfc343cb274688de7d3bd5df5a84?         
+override r--r--r--  konalo/staff for QT-C-/.git/objects/40/b96e3457c7f43088f036572df1fd438595e9a9? e
+rm QT-C-/.git/objects/40 Directory not empty
+override r--r--r--  konalo/staff for QT-C-/.git/objects/48/71992d06b4d18c924314bac434ba7309a805a5? n
+rm QT-C-/.git/objects/48 Directory not empty
+override r--r--r--  konalo/staff for QT-C-/.git/objects/49/91bde7a68db6cf8400599243d2e2a3565951f5? s
+rm QT-C-/.git/objects/49 Directory not empty
+override r--r--r--  konalo/staff for QT-C-/.git/objects/4b/e764d334a324591121904bb60f75f4662af353? -f
+rm QT-C-/.git/objects/4b Directory not empty
+override r--r--r--  konalo/staff for QT-C-/.git/objects/58/a631f5b51e8dcbe7184d4860e6b6bbaf39e201? ls
+rm QT-C-/.git/objects/58 Directory not empty
+override r--r--r--  konalo/staff for QT-C-/.git/objects/60/bace3d4b3ba6b40225b1faafe23fc935411ea7? ^[
+rm QT-C-/.git/objects/60 Directory not empty
+override r--r--r--  konalo/staff for QT-C-/.git/objects/67/9ee719c3dd688fadb300e1de952b1074bbd771? ^Z
+[1]+  Stopped                 rm -r QT-C-
+konalo@MacBook-Air~/c $ rm -r -f QT-C-
+konalo@MacBook-Air~/c $ ls
+C             error2.cpp    error4.cpp    error5.cpp    exc_mean.hpp  testclass.cpp
+konalo@MacBook-Air~/c $ mv e* /C
+usage mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+konalo@MacBook-Air~/c $ mv -f e* /C
+usage mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+konalo@MacBook-Air~/c $ mv -f e* C
+konalo@MacBook-Air~/c $ ls
+C             testclass.cpp
+konalo@MacBook-Air~/c $ mv testclass.cpp C
+konalo@MacBook-Air~/c $ ls
+C
+konalo@MacBook-Air~/c $ cd C
+konalo@MacBook-Air~/c/C $ ls
+Arrfun.cpp                  ch8                         error4.cpp                  hello_client.c              struct.hpp                  waitting.cpp
+Arrfun.hpp                  cinfo.c                     error5.cpp                  hello_client.cpp            struct1.cpp                 work
+Brass                       clock.cpp                   exc_mean.hpp                hello_server                tabtennis                   嵌套类
+C++中代码重用               data.txt                    fd_seri.c                   hello_server.c              tempmemb                    继承和动态分配
+List                        do_while.cpp                filefun                     helloworld                  testabort.cpp               友元，异常和其他
+List.cpp                    endan_conv.c                fill_array.cpp              low_read.c                  testclass.cpp               继承与动态内存分布
+Ofile.c                     error1.cpp                  fill_array.hpp              main.cpp                    throwerror.cpp
+RemoteSystemsTempFiles      error2.cpp                  for_array_vector.cpp        socket                      vector.cpp
+abstract class              error3.cpp                  get.c                       struct.cpp                  vector.hpp
+konalo@MacBook-Air~/c/C $ vi newexcep.cpp
+konalo@MacBook-Air~/c/C $ g++ newexcep.cpp -o newexcep
+newexcep.cpp121 error anonymous structs and classes must be class members
+struct {
+^
+newexcep.cpp185 error unknown type name 'Big'
+    Big *pb;
+    ^
+newexcep.cpp2116 error unknown type name 'Big'
+        pb=new Big[10000];
+               ^
+3 errors generated.
+konalo@MacBook-Air~/c/C $ gcc newexcep.cpp -o exec
+newexcep.cpp121 error anonymous structs and classes must be class members
+struct {
+^
+newexcep.cpp185 error unknown type name 'Big'
+    Big *pb;
+    ^
+newexcep.cpp2116 error unknown type name 'Big'
+        pb=new Big[10000];
+               ^
+3 errors generated.
+konalo@MacBook-Air~/c/C $ vi newexcep.cpp
+konalo@MacBook-Air~/c/C $ g++ newexcep.cpp -o newexcep
+newexcep.cpp3221 error reference to overloaded function could not be resolved; did you mean to call it?
+    pb[0].stuff[0]<<endl;
+                    ^~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream10321 note possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+1 error generated.
+konalo@MacBook-Air~/c/C $ vi newexcep.cpp
+konalo@MacBook-Air~/c/C $ g++ newexcep.cpp -o newexcep
+newexcep.cpp3221 error reference to overloaded function could not be resolved; did you mean to call it?
+    pb[0].stuff[0]<<endl;
+                    ^~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream10321 note possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+1 error generated.
+konalo@MacBook-Air~/c/C $ vi newexcep.cpp
+konalo@MacBook-Air~/c/C $ g++ newexcep.cpp -o newexcep
+newexcep.cpp3221 error reference to overloaded function could not be resolved; did you mean to call it?
+    pb[0].stuff[0]<<stdendl;
+                    ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream10321 note possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+1 error generated.
+konalo@MacBook-Air~/c/C $ vi newexcep.cpp
+konalo@MacBook-Air~/c/C $ g++ newexcep.cpp -o newexcep
+newexcep.cpp3221 error reference to overloaded function could not be resolved; did you mean to call it?
+    pb[0].stuff[0]<<stdendl;
+                    ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream10321 note possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+1 error generated.
+konalo@MacBook-Air~/c/C $ vi newexcep.cpp
+konalo@MacBook-Air~/c/C $ g++ newexcep.cpp -o newexcep
+newexcep.cpp3221 error reference to overloaded function could not be resolved; did you mean to call it?
+    pb[0].stuff[0]<<endl;
+                    ^~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream10321 note possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+1 error generated.
+konalo@MacBook-Air~/c/C $ g++ newexcep.cpp -o newexcep
+newexcep.cpp3221 error reference to overloaded function could not be resolved; did you mean to call it?
+    pb[0].stuff[0]<<endl;
+                    ^~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream10321 note possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+1 error generated.
+konalo@MacBook-Air~/c/C $ vi newexcep.cpp
+konalo@MacBook-Air~/c/C $ g++ newexcep.cpp -o newexcep
+newexcep.cpp2711 error unknown type name 'bad_alloc'; did you mean 'stdbad_alloc'?
+    catch(bad_alloc &ba)
+          ^~~~~~~~~
+          stdbad_alloc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new8229 note 'stdbad_alloc' declared here
+class _LIBCPP_EXCEPTION_ABI bad_alloc
+                            ^
+newexcep.cpp3421 error reference to overloaded function could not be resolved; did you mean to call it?
+    pb[0].stuff[0]<<endl;
+                    ^~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream10321 note possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+2 errors generated.
+konalo@MacBook-Air~/c/C $ vi newexcep.cpp
+
+  1 /*************************************************************************                                                                                                  
+  2     > File Name newexcep.cpp
+  3     > Author   
+  4     > Mail     
+  5     > Created Time 三  8/31 192245 2016
+  6  ************************************************************************/
+  7                 
+  8 #include<iostream>
+  9 #include<new>   
+ 10 #include<cstdlib>
+ 11 //using namespace std;
+ 12 using stdcout;
+ 13 using stdendl;
+ 14 struct Big {    
+ 15     double stuff[20000];
+ 16 };              
+ 17                 
+ 18 int main()      
+ 19 {               
+ 20     Big *pb;    
+ 21     try{        
+ 22         cout<<"trying to get a big block of memory\n";
+ 23         pb=new Big[10000];
+ 24         cout<<"Got past the new request \n";
+ 25     }           
+ 26                 
+ 27     catch(bad_alloc &ba)
+ 28     {           
+ 29         cout<<"Caught the exception !\n";
+ 30         cout<<ba.what()<<endl;
+ 31         exit(EXIT_FAILURE);
+ 32     }           
+ 33     cout<<"memory successfully allocated \n";
+ 34     pb[0].stuff[0]<<endl;
+ 35     delete[] pb;
+ 36     return 0;   
+ 37 }               
+ 38                 
+ 39                 
+ 40                 
+~/C/C/newexcep.cpp [FORMAT=unix] [TYPE=CPP] [POS=1,16][2%] 31/08/16 - 1938                                                                                                     
+"newexcep.cpp" 42L, 810C
+
+38                                                                                                     
+"newexcep.cpp" 42L, 810C
+

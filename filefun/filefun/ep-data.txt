@@ -1,0 +1,7 @@
+Focal length of objective : 12  mm 
+f . 1 . eyepiece  magnification
+        23.0              1
+        24.0              1
+        34.0              0
+        56.0              0
+        67.0              0

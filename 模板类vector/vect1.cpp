@@ -21,6 +21,7 @@ int main()
     }
     cout<<" Thank you. You entered the following: \n"
     <<" Rating\tBook\n";
+<<<<<<< HEAD
 
     //使用迭代器代替for循环
     //声明两个  迭代器
@@ -34,5 +35,12 @@ int main()
     }
 
 
+=======
+    for(i=0;i<NUM;i++)
+    {
+        cout<<ratings[i]<<"\t"<<titles[i]<<endl;
+    }
+
+>>>>>>> parent of 5f690ed... Revert "create vector array"
     return 0;
 }

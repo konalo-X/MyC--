@@ -9,32 +9,33 @@ int main()
     vector<int> ratings(NUM);
     vector<string> titles(NUM);
     cout<<"You will do exactly as told. You will enter\n"
-    <<NUM<< " book titles and your ratings(0-10).\n";
+        <<NUM<< " book titles and your ratings(0-10).\n";
     int i;
-    for(int i=0;i<NUM;i++)
-    {
-        cout<<"Enter title #"<<i+1<<": ";
-        getline(cin,titles[i]);
-        cout<<"Enter your rating (0-10): ";
-        cin>>ratings[i];
-        cin.get();
-    }
+    for(int i=0; i<NUM; i++)
+        {
+            cout<<"Enter title #"<<i+1<<": ";
+            getline(cin,titles[i]);
+            cout<<"Enter your rating (0-10): ";
+            cin>>ratings[i];
+            cin.get();
+        }
     cout<<" Thank you. You entered the following: \n"
-    <<" Rating\tBook\n";
+        <<" Rating\tBook\n";
 
 
-    //Ê¹ÓÃµü´úÆ÷´úÌæforÑ­»·
-    //ÉùÃ÷Á½¸ö  µü´úÆ÷
+    //ä½¿ç”¨è¿­ä»£å™¨ä»£æ›¿forå¾ªçŽ¯
+    //å£°æ˜Žä¸¤ä¸ª  è¿­ä»£å™¨
     vector<int> ::iterator pi;
     vector<string>::iterator ps;
     pi=ratings.begin();
     ps=titles.begin();
-    for(pi=ratings.begin(),ps=titles.begin();pi!=ratings.end(),ps!=titles.end();pi++,ps++)
-    {
-        cout<<*pi<<"\t"<<*ps<<endl;
-    }
+    for(pi=ratings.begin(),ps=titles.begin(); pi!=ratings.end(),ps!=titles.end(); pi++,ps++)
+        {
+            cout<<*pi<<"\t"<<*ps<<endl;
+        }
 
 
 
     return 0;
 }
+//ffffffffffddddfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff

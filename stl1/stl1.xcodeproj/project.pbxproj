@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		537255FB1D844A8A0061AFFA /* (null) in Sources */ = {isa = PBXBuildFile; };
-		53C8F0FF1D8550E80082D902 /* testSTLfuncidentifer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C8F0FE1D8550E80082D902 /* testSTLfuncidentifer.cpp */; };
+		53C8F1011D85663E0082D902 /* funcadap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C8F1001D85663E0082D902 /* funcadap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		537255F01D84490D0061AFFA /* stl1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = stl1; sourceTree = BUILT_PRODUCTS_DIR; };
-		53C8F0FE1D8550E80082D902 /* testSTLfuncidentifer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testSTLfuncidentifer.cpp; sourceTree = "<group>"; };
+		53C8F1001D85663E0082D902 /* funcadap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = funcadap.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		537255F21D84490D0061AFFA /* stl1 */ = {
 			isa = PBXGroup;
 			children = (
-				53C8F0FE1D8550E80082D902 /* testSTLfuncidentifer.cpp */,
+				53C8F1001D85663E0082D902 /* funcadap.cpp */,
 			);
 			path = stl1;
 			sourceTree = "<group>";
@@ -119,8 +119,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C8F0FF1D8550E80082D902 /* testSTLfuncidentifer.cpp in Sources */,
 				537255FB1D844A8A0061AFFA /* (null) in Sources */,
+				53C8F1011D85663E0082D902 /* funcadap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

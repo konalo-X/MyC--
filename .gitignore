@@ -258,7 +258,7 @@ paket-files/
 
 # OSX
 # =========================
-
+.xcodeproj
 .DS_Store
 .AppleDouble
 .LSOverride

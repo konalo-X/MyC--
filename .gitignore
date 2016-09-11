@@ -10,7 +10,7 @@
 *.xcuserstate
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+*.xcuserstate
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

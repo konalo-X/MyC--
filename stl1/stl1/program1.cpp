@@ -11,6 +11,8 @@
 #include <string>
 #include <vector>
 #include<ctype.h>
+#include <set>
+
 void Show(std::string);
 bool  Compare(std::string ,std::string );
 std::string  ToLower(std::string );
@@ -24,7 +26,7 @@ int main()
         words.push_back(input);
     cout<<"the words you input is :\n\t";
     for_each(words.begin(), words.end(),Show);
-    sort(words.begin(), words.end(), Compare);//这里有个缺陷
+  //  sort(words.begin(), words.end(), Compare);//这里有个缺陷
     
     cout<<"\n按字母顺序的单词：\n\t";
     for_each(words.begin(), words.end(),Show);
@@ -39,6 +41,7 @@ void Show(std::string s)
 }
 std::string  ToLower(std::string s)
 {
+    
     transform(s.begin(),s.end(),s.begin(),toupper);
     return s;
 }
@@ -51,3 +54,22 @@ bool Compare(std::string s1,std::string s2 )
     else
         return false;
 }
+
+/*
+//测试set 的元素无序性
+int main(){
+using namespace std;
+set<char> word;
+cout<<"input num:\n <0 to quit>";
+    char a;
+    while (cin>>a&&a!='0')
+    {
+        
+        word.insert(a);
+    }
+    cout<<"OK ,the num is:";
+    for( auto x:word)
+        cout<<x<<endl;
+    return 0;
+}
+*/

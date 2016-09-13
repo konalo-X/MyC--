@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5306C2471D883CE200729753 /* program2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5306C2461D883CE200729753 /* program2.cpp */; };
 		537255FB1D844A8A0061AFFA /* (null) in Sources */ = {isa = PBXBuildFile; };
+		537477CE1D8856C200291E23 /* valvect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 537477CD1D8856C200291E23 /* valvect.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5306C2461D883CE200729753 /* program2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = program2.cpp; sourceTree = "<group>"; };
 		537255F01D84490D0061AFFA /* stl1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = stl1; sourceTree = BUILT_PRODUCTS_DIR; };
+		537477CD1D8856C200291E23 /* valvect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = valvect.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		537255F21D84490D0061AFFA /* stl1 */ = {
 			isa = PBXGroup;
 			children = (
-				5306C2461D883CE200729753 /* program2.cpp */,
+				537477CD1D8856C200291E23 /* valvect.cpp */,
 			);
 			path = stl1;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				537255FB1D844A8A0061AFFA /* (null) in Sources */,
-				5306C2471D883CE200729753 /* program2.cpp in Sources */,
+				537477CE1D8856C200291E23 /* valvect.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
